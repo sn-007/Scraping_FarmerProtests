@@ -17,8 +17,10 @@ for item in titles:
     except:
         pass
 
-
+i=0
 for item in newslist:
+    print(i)
     print(item['title'])
     print(" ")
+    i=i+1
 
